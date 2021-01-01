@@ -6,7 +6,7 @@ client.on('message', message => {
 
 if (!message.guild) return; 
 
-if (message.content === 'c!wara') { 
+if (message.content === 'wara') { 
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
@@ -36,9 +36,9 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(``) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(`https://discord.gg/VkPX4tkfr2`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("id جەنالەکە").send(
+  client.channels.get("781974291851771904").send(
 `> sent By  <@${message.author.id}> ✅ 
 ${message.content}`)
 }
@@ -57,4 +57,4 @@ client.user.setGame(`شتێک بنوسە بۆ ستریمینگ`,"http://twitch.t
 
 
 
-client.login("");//تۆکین لێرە دانێ
+client.login("Nzk0NTAyNDU4NzMwMjE3NDcz.X-7wEw.xGOk2EzLfQv2BJORbkC5ACU3X_8");//تۆکین لێرە دانێ
